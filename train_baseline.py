@@ -1,3 +1,4 @@
+# Trains using the cleaned_dataset.csv and runs the respective models (like random forest model)
 import pandas as pd
 
 # Load the cleaned ASL dataset
