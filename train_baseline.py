@@ -39,6 +39,8 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, classification_report
 
+
+#####################################
 # Create Logistic Regression model
 model = make_pipeline(
     StandardScaler(),
@@ -62,6 +64,8 @@ print(classification_report(y_test, y_pred))
 
 from sklearn.ensemble import RandomForestClassifier
 
+
+##########################################
 # Create Random Forest model
 rf_model = RandomForestClassifier(
     n_estimators=100,
@@ -85,6 +89,8 @@ print(classification_report(y_test, rf_pred))
 
 from sklearn.svm import SVC
 
+
+###############################
 # Create SVM model
 svm_model = make_pipeline(
     StandardScaler(),
@@ -146,6 +152,8 @@ print(classification_report(
 
 from sklearn.neighbors import KNeighborsClassifier
 
+
+########################################
 # Create KNN model
 knn_model = make_pipeline(
     StandardScaler(),
