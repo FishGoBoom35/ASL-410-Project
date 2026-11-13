@@ -1,6 +1,5 @@
 # ASL Sign Recognition: Frontend
 
-React + TypeScript + Vite UI for the CSC 410 ASL project, exported from the Figma Make design.
 
 ## Run it
 
