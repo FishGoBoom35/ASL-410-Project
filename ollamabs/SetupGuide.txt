@@ -1,0 +1,31 @@
+1. Install Ollama from https://ollama.com/download and open it.
+
+2. Download the model by running the following command in command prompt or terminal (mac):
+
+   ollama pull gemma4:e2b
+
+3. On whatever IDE you use, install ollama's package so you can actually run the code
+
+   pip install ollama
+
+4. You should be good to run main, just put in the discord if you can't get it working and ill try to help.
+
+
+Type sign words like `book order how` and press Enter. Press Enter on an empty line to quit.
+If you get "Failed to connect to Ollama", make sure you have ollama open
+If you get any other errors just ai it out lmao
+
+
+---Explanation---
+Basically instead of prompting the with all the information at once at the start, the AI is only given
+information that is relevant to the topic being asked. This should help keep the llm on topic.
+
+
+Information folder - follow the format of the books file. Keywords are what is being looked for in the
+sign. Example: Sign: **book** order how vs **textbook** order how will get information from the same file.
+The line after the keywords line is where all your information goes about whatever sign goes. As we add
+new signs, just add them to their own .txt file with keywords and the information and you should be good
+to go.
+
+Prompts folder - Basically just ignore this, it is the instructions the AI uses to know how to respond
+and the examples file is just what a typical conversation between the user and AI looks like.

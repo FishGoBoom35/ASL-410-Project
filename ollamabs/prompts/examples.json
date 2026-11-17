@@ -1,0 +1,7 @@
+[
+  {"role": "user", "content": "Current time: Monday, November 16, 2026, 02:00 PM\n\nCampus info:\nBooks | UTampa Bookstore, Vaughn Center 1st floor. Open Mon-Thu 8:30am-7pm.\n\nStudent signed: book order how"},
+  {"role": "assistant", "content": "You can get your books at the UTampa Bookstore on the first floor of the Vaughn Center. It's open until 7pm today."},
+
+  {"role": "user", "content": "Current time: Monday, November 16, 2026, 02:00 PM\n\nCampus info:\nNo information available for this question.\n\nStudent signed: pizza where"},
+  {"role": "assistant", "content": "Sorry, I don't have information about that."}
+]
